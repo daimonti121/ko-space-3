@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ko-space</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/6cdebefc63/UntitledProject/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="header-container">
+      <div class="container-row">
+        <div class="right-row">
+          <div class="welcome-text">Welcome to Smartech online Store</div>
+          <div class="track-text">
+            <svg class="row-icon-left" version="1.1" xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28">
+            <title>truck</title>
+            <path
+              d="M10 22c0-1.094-0.906-2-2-2s-2 0.906-2 2 0.906 2 2 2 2-0.906 2-2zM4 14h6v-4h-2.469c-0.063 0-0.297 0.094-0.344 0.141l-3.047 3.047c-0.047 0.047-0.141 0.281-0.141 0.344v0.469zM24 22c0-1.094-0.906-2-2-2s-2 0.906-2 2 0.906 2 2 2 2-0.906 2-2zM28 5v16c0 1.156-1.219 1-2 1 0 2.203-1.797 4-4 4s-4-1.797-4-4h-6c0 2.203-1.797 4-4 4s-4-1.797-4-4h-1c-0.781 0-2 0.156-2-1 0-0.547 0.453-1 1-1v-5c0-1.109-0.156-2.344 0.703-3.203l3.094-3.094c0.391-0.391 1.141-0.703 1.703-0.703h2.5v-3c0-0.547 0.453-1 1-1h16c0.547 0 1 0.453 1 1z">
+            </path>
+          </svg>
+          <p>Track Your Order</p></div>
+          <div class="text-info-row">
+            <svg class="row-icon-mail" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>mail2</title>
+              <path
+                d="M26.667 0h-21.333c-2.934 0-5.334 2.4-5.334 5.334v21.332c0 2.936 2.4 5.334 5.334 5.334h21.333c2.934 0 5.333-2.398 5.333-5.334v-21.332c0-2.934-2.399-5.334-5.333-5.334zM26.667 4c0.25 0 0.486 0.073 0.688 0.198l-11.355 9.388-11.355-9.387c0.202-0.125 0.439-0.198 0.689-0.198h21.333zM5.334 28c-0.060 0-0.119-0.005-0.178-0.013l7.051-9.78-0.914-0.914-7.293 7.293v-19.098l12 14.512 12-14.512v19.098l-7.293-7.293-0.914 0.914 7.051 9.78c-0.058 0.008-0.117 0.013-0.177 0.013h-21.333z">
+              </path>
+            </svg>
+            <p>info@example.com</p>
+          </div>
+        </div>
+        <div class="left-row">
+          <div class="link-icon">
+            <div class="link-icon-image">
+              <a href="#" class="img-icon-link"><svg class="row-icon-right" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>facebook</title>
+                <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+              </svg></a>
+              <a href="#" class="img-icon-link">
+                <svg class="row-icon-right" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>twitter</title>
+                <path
+                  d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z">
+                </path>
+              </svg></a>
+              <a href="#" class="img-icon-link">
+                <svg class="row-icon-right" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>instagram</title>
+                <path
+                  d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z">
+                </path>
+                <path
+                  d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z">
+                </path>
+                <path
+                  d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z">
+                </path>
+              </svg></a>
+              <a href="#" class="img-icon-link">
+                <svg class="row-icon-right" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>youtube</title>
+                <path
+                  d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z">
+                </path>
+              </svg></a>
+            </div>
+          </div>
+          <div class="lang">
+            <div class="lang-block">
+              <ul>
+                <li class="hover-lang"><a href="#">English <svg class="arouw-hover-first" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                  <title>cheveron-down</title>
+                  <path d="M9.293 12.95l0.707 0.707 5.657-5.657-1.414-1.414-4.243 4.242-4.243-4.242-1.414 1.414z"></path>
+                </svg></a>
+                <ul>
+                  <li><a href="#">FRENCH</a></li>
+                  <li><a href="#">GERMAN</a></li>
+                  <li><a href="#">BELGIUM</a></li>
+                  <li><a href="#">HONDURAS</a></li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <div class="money">
+            <div class="money-block">
+              <ul>
+                <li class="hover-money"><a href="#">USD <svg class="arouw-hover-second" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                  <title>cheveron-down</title>
+                  <path d="M9.293 12.95l0.707 0.707 5.657-5.657-1.414-1.414-4.243 4.242-4.243-4.242-1.414 1.414z"></path>
+                </svg></a>
+                  <ul>
+                    <li><a href="#">EUR - EURO</a></li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- button-logo-info -->
+      <div class="button-logo-info">
+        <div class="button-logo-block">
+          <div class="left-logo-block"><a href="#">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" width="187px" height="46px" viewBox="0 0 187 46" enable-background="new 0 0 187 46" xml:space="preserve">
+            <image overflow="visible" width="187" height="46" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAAuCAYAAAEHPFgMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+          bWFnZVJlYWR5ccllPAAAA4BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+          bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+          eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0
+          NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+          dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+          dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+          MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+          b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+          Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowYzdiMmU4OC04NTIxLTAwNGItYWM0NS1kNjZi
+          YmNjMDQ0ZDEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUYyMkY1NjIwMTFCMTFFQUI3RjlG
+          RDgwQkFCMkQzN0MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUYyMkY1NjEwMTFCMTFFQUI3
+          RjlGRDgwQkFCMkQzN0MiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2lu
+          ZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ZTBm
+          MzEzMi02YjQ0LWI0NDgtYmYxMi04YTRhYWFkYWY4ZTgiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2Jl
+          OmRvY2lkOnBob3Rvc2hvcDowMWQ3NDYwZS1hOTU2LWU4NGUtOWFiNC01ZTE4ZmQ2ZDFmOGQiLz4g
+          PC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9
+          InIiPz4NCf35AAASvElEQVR42mI0nvmPAQv4D8SMIMb7ThUGSgATlE4C4pVI4lQxHNmCeUDcguYD
+          ENgNpcuhYv+R5GEYmxwIvAPiuzALGoD4PhAfBeIKID6AZJkgkq8YkQyAgU4kuZlArAx1mBAQKyFb
+          4A7EVkDcDsTgsCkvL3cFhRTIECAbxEe2CIyhYgxQ9elA6h5IH0wtI1okg1y3AIi3AfHqNIbZMPE0
+          qE+UgDgdR3C/g7p6JlQ92EcAAcSIJRXlA3EkEFtQKwXdBeI70LDfCTKYgQoAZvgaaHiDvG0DxNuh
+          rsaWWrCJp6HRYAwyXBuIXwAxKHwmA7EIEHtiSaYMUJ/dheUNJBoU1nugNDz/gAw/BcTXob7ghkYO
+          g2D5HQZoqkBOJaDUowxNIfBUBFXjipaiGEAR+hlI8yLZCPLaLGhq+Y+UzhmRUsZ7KJ4FxSBbVoOS
+          IzRVgWgGgABCTy2aQPwWiF+hxY0CED9AFqBGcUGtBAMD14D4JRI/Bkr7QNkxaA6HJQ4XCt3xnxx1
+          TDgk3kHpJVB6MpS9BM2w91A6FKnMRDarHK1MZcCiBt1xoGLwDFruYsBStIJzEwcQ34amOTYoLYSm
+          kRFHSNyD0ukEQowR6vhVOOTTkdK9C5Zy/wyWAGOApfmv0JwKAtJA/BSq6S20egQllyogngrJcbMZ
+          BgNgghYzk6AVEwjnQOkOIAa58hMQTwNiGSDuwlN3MKCl//9oyQG9IFWClnuCSOrKkcpCZP1K2Apo
+          gADMVztKBEEQtVEQMy9g4C6ewM1MHRTNPYIba7JmprsYaCCocwHBUDAbvMEeYRAvoIkg/hi74ZU8
+          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">
+            </image>
+          </svg></a></div>
+          <div class="midle-button-serch">
+            <div class="midle-button-block">
+              <select class="cat searchbox-cat" name="cat">
+                <option value="">All Categories</option>
+                <option value="3">- - Smartphones</option>
+                <option value="15">- - - - Accessories for iPhone</option>
+                <option value="16">- - - - Accessories for iPad</option>
+                <option value="17">- - - - Accessories for Tablet PC</option>
+                <option value="18">- - - - Tablet PC</option>
+                <option value="4">- - Computer &amp; Laptop</option>
+                <option value="19">- - - - Laptop Gaming</option>
+                <option value="69">- - - - - - MSI GS75 Stealth</option>
+                <option value="70">- - - - - - Razer Blade</option>
+                <option value="71">- - - - - - Alienware Area-51m</option>
+                <option value="72">- - - - - - Acer Predator Triton 500</option>
+                <option value="73">- - - - - - Dell G3 Gaming Laptop</option>
+                <option value="74">- - - - - - Lenovo Legion Y7000</option>
+                <option value="20">- - - - Laptop Workstation</option>
+                <option value="75">- - - - - - Aesthedes</option>
+                <option value="76">- - - - - - Quantel Paintbox</option>
+                <option value="77">- - - - - - Lisp Machine</option>
+                <option value="78">- - - - - - Dell Precision</option>
+                <option value="79">- - - - - - ThinkStation</option>
+                <option value="80">- - - - - - Xerox Daybreak</option>
+                <option value="21">- - - - Laptop Build Configuration</option>
+                <option value="89">- - - - - - Ram</option>
+                <option value="90">- - - - - - HDD</option>
+                <option value="91">- - - - - - VGA</option>
+                <option value="92">- - - - - - Monitor</option>
+                <option value="93">- - - - - - CPU</option>
+                <option value="94">- - - - - - Window OS</option>
+                <option value="22">- - - - Accessories for Laptop</option>
+                <option value="81">- - - - - - Keyboard</option>
+                <option value="82">- - - - - - Mouse</option>
+                <option value="83">- - - - - - Software</option>
+                <option value="84">- - - - - - VGA Onboard</option>
+                <option value="85">- - - - - - Cleaner</option>
+                <option value="86">- - - - - - Monitor</option>
+                <option value="87">- - - - - - Touch Pad</option>
+                <option value="88">- - - - - - Laptop Bags</option>
+                <option value="5">- - Computer</option>
+                <option value="23">- - - - Mini Computer</option>
+                <option value="24">- - - - All in One PC</option>
+                <option value="25">- - - - Accessories for Computer</option>
+                <option value="26">- - - - Synchronous Computer</option>
+                <option value="6">- - Smart Televisions</option>
+                <option value="27">- - - - Washing Machine</option>
+                <option value="48">- - - - - - Clothes Washing Machines</option>
+                <option value="49">- - - - - - Washers &amp; Dryers</option>
+                <option value="50">- - - - - - Specialty Laundry Machines</option>
+                <option value="51">- - - - - - Clothes Dryers</option>
+                <option value="52">- - - - - - Stacked Washer &amp; Dryer Units</option>
+                <option value="53">- - - - - - Washer Parts &amp; Accessories</option>
+                <option value="28">- - - - All accessories</option>
+                <option value="54">- - - - - - French Door</option>
+                <option value="55">- - - - - - Bottom Freezer</option>
+                <option value="56">- - - - - - Side-By-Side</option>
+                <option value="57">- - - - - - Top Freezer</option>
+                <option value="58">- - - - - - Wine Refrigerator</option>
+                <option value="59">- - - - - - Compact Refrigerator</option>
+                <option value="29">- - - - Air Conditioners</option>
+                <option value="60">- - - - - - Window Air Conditioners</option>
+                <option value="61">- - - - - - Portable Air Conditioners</option>
+                <option value="62">- - - - - - Room Air Conditioners</option>
+                <option value="63">- - - - - - Evaporative Coolers</option>
+                <option value="64">- - - - - - Air Conditioner Accessories</option>
+                <option value="65">- - - - - - Split-System Air Conditioners</option>
+                <option value="67">- - - - - - Household Tower Fans</option>
+                <option value="68">- - - - - - Door Air Conditioners</option>
+                <option value="30">- - - - Fridge</option>
+                <option value="7">- - Digital Cameras</option>
+                <option value="39">- - - - Digital Camera Accessories</option>
+                <option value="40">- - - - Camera Cases</option>
+                <option value="41">- - - - Filter Sets</option>
+                <option value="42">- - - - Camera &amp; Photo Cleaning Kits</option>
+                <option value="8">- - Headphones</option>
+                <option value="43">- - - - Technical Video</option>
+                <option value="44">- - - - Television &amp; Video Engineering</option>
+                <option value="45">- - - - Prime Video</option>
+                <option value="46">- - - - Movies &amp; TV</option>
+                <option value="9">- - Accessories</option>
+                <option value="10">- - Audio Theaters</option>
+                <option value="31">- - - - Gaming Computer</option>
+                <option value="32">- - - - Gaming Accessories</option>
+                <option value="33">- - - - Gaming Monitor</option>
+                <option value="34">- - - - PlayStaytion</option>
+                <option value="11">- - Smart Watches</option>
+                <option value="35">- - - - Audio Cables</option>
+                <option value="36">- - - - Home Audio Accessories</option>
+                <option value="37">- - - - Wireless &amp; Streaming Audio</option>
+                <option value="38">- - - - Headphones</option>
+                <option value="12">- - Accessories &amp; Supplies</option>
+                <option value="13">- - Holiday Supplies &amp; Gifts</option>
+                <option value="14">- - Apparel</option>
+                <option value="47">- - Shop</option>
+                <option value="95">- - About Us</option>
+                <option value="96">- - Categories Demo</option>
+                <option value="97">- - - - Without Sidebar</option>
+                <option value="98">- - - - Left Sidebar</option>
+                <option value="99">- - - - Right Sidebar</option>
+                <option value="100">- - - - Left - Right Sidebar</option>
+              </select>
+              <input type="text" name="q" placeholder="Enter keywords to search..." class="input-text-midle midle-input">
+              <button type="submit" title="Search" class="button-sbg-serch"" disabled="">
+                <svg class="icon-sbg-serch" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                  viewBox="0 0 32 32">
+                  <path
+                    d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="right-button-user">
+            <div class="info-block-number">
+            <svg class="icon-number" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M20 19c0 0.276-0.111 0.525-0.293 0.707s-0.431 0.293-0.707 0.293h-1c-0.276 0-0.525-0.111-0.707-0.293s-0.293-0.431-0.293-0.707v-3c0-0.276 0.111-0.525 0.293-0.707s0.431-0.293 0.707-0.293h2v3zM4 19v-4h2c0.276 0 0.525 0.111 0.707 0.293s0.293 0.431 0.293 0.707v3c0 0.276-0.111 0.525-0.293 0.707s-0.431 0.293-0.707 0.293h-1c-0.276 0-0.525-0.111-0.707-0.293s-0.293-0.431-0.293-0.707zM2 19c0 0.828 0.337 1.58 0.879 2.121s1.293 0.879 2.121 0.879h1c0.828 0 1.58-0.337 2.121-0.879s0.879-1.293 0.879-2.121v-3c0-0.828-0.337-1.58-0.879-2.121s-1.293-0.879-2.121-0.879h-2v-1c0-2.209 0.894-4.208 2.343-5.657s3.448-2.343 5.657-2.343 4.208 0.894 5.657 2.343 2.343 3.448 2.343 5.657v1h-2c-0.828 0-1.58 0.337-2.121 0.879s-0.879 1.293-0.879 2.121v3c0 0.828 0.337 1.58 0.879 2.121s1.293 0.879 2.121 0.879h1c0.828 0 1.58-0.337 2.121-0.879s0.879-1.293 0.879-2.121v-7c0-2.761-1.12-5.263-2.929-7.071s-4.31-2.929-7.071-2.929-5.263 1.12-7.071 2.929-2.929 4.31-2.929 7.071v6z">
+              </path>
+            </svg>
+              <span>Hotline Free:</span>
+              <strong>06-900-6789-09</strong>
+            </div>
+            <div class="user-block">
+              <ul>
+                <li>
+                  <a href="#"><svg class="user-icon-right" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28">
+                  <path
+                    d="M18.766 12.25c2.203 0.641 5.234 2.812 5.234 9.922 0 3.219-2.391 5.828-5.328 5.828h-13.344c-2.938 0-5.328-2.609-5.328-5.828 0-7.109 3.031-9.281 5.234-9.922-0.781-1.234-1.234-2.688-1.234-4.25 0-4.406 3.594-8 8-8s8 3.594 8 8c0 1.563-0.453 3.016-1.234 4.25zM12 2c-3.313 0-6 2.688-6 6s2.688 6 6 6 6-2.688 6-6-2.688-6-6-6zM18.672 26c1.828 0 3.328-1.703 3.328-3.828 0-4.922-1.656-8-4.75-8.156-1.406 1.234-3.234 1.984-5.25 1.984s-3.844-0.75-5.25-1.984c-3.094 0.156-4.75 3.234-4.75 8.156 0 2.125 1.5 3.828 3.328 3.828h13.344z">
+                  </path>
+                </svg></a></li>
+                <li><a class="link-text-user user-link-color" href="#"><span> My account</span></a>
+                <ul>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">My Wish List</a></li>
+                  <li><a href="#">Create an Account</a></li>
+                  <li><a href="#">Sign In</a></li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+            <div class="heart-block">
+              <ul>
+                <li>
+                  <a href="#"><svg class="icon-heart-botton"version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                    <path
+                      d="M26 9.312c0-4.391-2.969-5.313-5.469-5.313-2.328 0-4.953 2.516-5.766 3.484-0.375 0.453-1.156 0.453-1.531 0-0.812-0.969-3.437-3.484-5.766-3.484-2.5 0-5.469 0.922-5.469 5.313 0 2.859 2.891 5.516 2.922 5.547l9.078 8.75 9.063-8.734c0.047-0.047 2.938-2.703 2.938-5.563zM28 9.312c0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281s-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313z">
+                    </path>
+                  </svg></a></li>
+                <li><a href="#">My Wishlist</a></li>
+              </ul>
+            </div>
+            <div class="cart-block">
+              <ul>
+                <li><a href="#"><svg class="shopping-cart"version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M11 21c0-0.552-0.225-1.053-0.586-1.414s-0.862-0.586-1.414-0.586-1.053 0.225-1.414 0.586-0.586 0.862-0.586 1.414 0.225 1.053 0.586 1.414 0.862 0.586 1.414 0.586 1.053-0.225 1.414-0.586 0.586-0.862 0.586-1.414zM22 21c0-0.552-0.225-1.053-0.586-1.414s-0.862-0.586-1.414-0.586-1.053 0.225-1.414 0.586-0.586 0.862-0.586 1.414 0.225 1.053 0.586 1.414 0.862 0.586 1.414 0.586 1.053-0.225 1.414-0.586 0.586-0.862 0.586-1.414zM7.221 7h14.57l-1.371 7.191c-0.046 0.228-0.166 0.425-0.332 0.568-0.18 0.156-0.413 0.246-0.688 0.241h-9.734c-0.232 0.003-0.451-0.071-0.626-0.203-0.19-0.143-0.329-0.351-0.379-0.603zM1 2h3.18l0.848 4.239c0.108 0.437 0.502 0.761 0.972 0.761h1.221l-0.4-2h-0.821c-0.552 0-1 0.448-1 1 0 0.053 0.004 0.105 0.012 0.155 0.004 0.028 0.010 0.057 0.017 0.084l1.671 8.347c0.149 0.751 0.57 1.383 1.14 1.811 0.521 0.392 1.17 0.613 1.854 0.603h9.706c0.748 0.015 1.455-0.261 1.995-0.727 0.494-0.426 0.848-1.013 0.985-1.683l1.602-8.402c0.103-0.543-0.252-1.066-0.795-1.17-0.065-0.013-0.13-0.019-0.187-0.018h-16.18l-0.84-4.196c-0.094-0.462-0.497-0.804-0.98-0.804h-4c-0.552 0-1 0.448-1 1s0.448 1 1 1z">
+                  </path>
+                </svg></a></li>
+                <li><a class="heart-hover-icon"href="#">My Cart</a>
+                <ul>
+                  <li><a href="#">You have no items in your shopping cart.</a></li>
+                </ul></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- header-bottom -->
+      <div class="header-bottom">
+        <div class="container-header-bottom">
+          <div class="desktop-menu-header">
+            <div class="vertical-menu">
+              <div class="vertical-menu-block">
+                <ul>
+                  <li>
+                    <p>
+                      <svg class="vertical-menu-icon" mversion="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 20 20">
+                      <path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+                    </svg> all categories 
+                    <svg class="vertical-arouw-icon"version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l0.707 0.707 5.657-5.657-1.414-1.414-4.243 4.242-4.243-4.242-1.414 1.414z"></path>
+                    </svg></p>
+                    <ul>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>display</title>
+                        <path d="M0 2v20h32v-20h-32zM30 20h-28v-16h28v16zM21 24h-10l-1 4-2 2h16l-2-2z"></path>
+                      </svg> Electronic & Digital</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <title>headphones</title>
+                          <path d="M9 18h-2v14h2c0.55 0 1-0.45 1-1v-12c0-0.55-0.45-1-1-1z"></path>
+                          <path d="M23 18c-0.55 0-1 0.45-1 1v12c0 0.55 0.45 1 1 1h2v-14h-2z"></path>
+                          <path
+                            d="M32 16c0-8.837-7.163-16-16-16s-16 7.163-16 16c0 1.919 0.338 3.759 0.958 5.464-0.609 1.038-0.958 2.246-0.958 3.536 0 3.526 2.608 6.443 6 6.929v-13.857c-0.997 0.143-1.927 0.495-2.742 1.012-0.168-0.835-0.258-1.699-0.258-2.584 0-7.18 5.82-13 13-13s13 5.82 13 13c0 0.885-0.088 1.749-0.257 2.584-0.816-0.517-1.745-0.87-2.743-1.013v13.858c3.392-0.485 6-3.402 6-6.929 0-1.29-0.349-2.498-0.958-3.536 0.62-1.705 0.958-3.545 0.958-5.465z">
+                          </path>
+                        </svg> Accessories</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>spoon-knife</title>
+                        <path
+                          d="M7 0c-3.314 0-6 3.134-6 7 0 3.31 1.969 6.083 4.616 6.812l-0.993 16.191c-0.067 1.098 0.778 1.996 1.878 1.996h1c1.1 0 1.945-0.898 1.878-1.996l-0.993-16.191c2.646-0.729 4.616-3.502 4.616-6.812 0-3.866-2.686-7-6-7zM27.167 0l-1.667 10h-1.25l-0.833-10h-0.833l-0.833 10h-1.25l-1.667-10h-0.833v13c0 0.552 0.448 1 1 1h2.604l-0.982 16.004c-0.067 1.098 0.778 1.996 1.878 1.996h1c1.1 0 1.945-0.898 1.878-1.996l-0.982-16.004h2.604c0.552 0 1-0.448 1-1v-13h-0.833z">
+                        </path>
+                      </svg> Home & Kitchen</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>accessibility</title>
+                        <path d="M13 3c0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3s-3-1.343-3-3z"></path>
+                        <path
+                          d="M20 10l10.3-4.443-0.743-1.857-12.557 4.3h-2l-12.557-4.3-0.743 1.857 10.3 4.443v8l-4.102 13.268 1.87 0.709 5.804-12.977h0.857l5.804 12.977 1.87-0.709-4.102-13.268z">
+                        </path>
+                      </svg> Sport & Outdoors</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>heart</title>
+                        <path
+                          d="M23.6 2c-3.363 0-6.258 2.736-7.599 5.594-1.342-2.858-4.237-5.594-7.601-5.594-4.637 0-8.4 3.764-8.4 8.401 0 9.433 9.516 11.906 16.001 21.232 6.13-9.268 15.999-12.1 15.999-21.232 0-4.637-3.763-8.401-8.4-8.401z">
+                        </path>
+                      </svg>
+ Health & Beauty</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>rocket</title>
+                        <path
+                          d="M22 2l-10 10h-6l-6 8c0 0 6.357-1.77 10.065-0.94l-10.065 12.94 13.184-10.255c1.839 4.208-1.184 10.255-1.184 10.255l8-6v-6l10-10 2-10-10 2z">
+                        </path>
+                      </svg>
+  Toys & Hobbies</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <title>video-camera</title>
+                          <path
+                            d="M12 9c0-2.761 2.239-5 5-5s5 2.239 5 5c0 2.761-2.239 5-5 5s-5-2.239-5-5zM0 9c0-2.761 2.239-5 5-5s5 2.239 5 5c0 2.761-2.239 5-5 5s-5-2.239-5-5zM24 19v-3c0-1.1-0.9-2-2-2h-20c-1.1 0-2 0.9-2 2v10c0 1.1 0.9 2 2 2h20c1.1 0 2-0.9 2-2v-3l8 5v-14l-8 5zM20 24h-16v-6h16v6z">
+                          </path>
+                        </svg>
+  Cameras & Camcorders</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <title>compass2</title>
+                          <path
+                            d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM3 16c0-7.18 5.82-13 13-13 3.424 0 6.538 1.325 8.86 3.488l-12.86 5.512-5.512 12.86c-2.164-2.322-3.488-5.436-3.488-8.86zM18.286 18.286l-8.003 3.43 3.43-8.003 4.573 4.573zM16 29c-3.424 0-6.539-1.325-8.86-3.488l12.86-5.512 5.512-12.86c2.164 2.322 3.488 5.436 3.488 8.86 0 7.18-5.82 13-13 13z">
+                          </path>
+                        </svg>  GPS & Navigation</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <title>printer</title>
+                          <path d="M8 2h16v4h-16v-4z"></path>
+                          <path
+                            d="M30 8h-28c-1.1 0-2 0.9-2 2v10c0 1.1 0.9 2 2 2h6v8h16v-8h6c1.1 0 2-0.9 2-2v-10c0-1.1-0.9-2-2-2zM4 14c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM22 28h-12v-10h12v10z">
+                          </path>
+                        </svg>  Office</a></li>
+                      <li><a href="#"><svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <title>sun</title>
+                        <path
+                          d="M16 26c1.105 0 2 0.895 2 2v2c0 1.105-0.895 2-2 2s-2-0.895-2-2v-2c0-1.105 0.895-2 2-2zM16 6c-1.105 0-2-0.895-2-2v-2c0-1.105 0.895-2 2-2s2 0.895 2 2v2c0 1.105-0.895 2-2 2zM30 14c1.105 0 2 0.895 2 2s-0.895 2-2 2h-2c-1.105 0-2-0.895-2-2s0.895-2 2-2h2zM6 16c0 1.105-0.895 2-2 2h-2c-1.105 0-2-0.895-2-2s0.895-2 2-2h2c1.105 0 2 0.895 2 2zM25.899 23.071l1.414 1.414c0.781 0.781 0.781 2.047 0 2.828s-2.047 0.781-2.828 0l-1.414-1.414c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0zM6.101 8.929l-1.414-1.414c-0.781-0.781-0.781-2.047 0-2.828s2.047-0.781 2.828 0l1.414 1.414c0.781 0.781 0.781 2.047 0 2.828s-2.047 0.781-2.828 0zM25.899 8.929c-0.781 0.781-2.047 0.781-2.828 0s-0.781-2.047 0-2.828l1.414-1.414c0.781-0.781 2.047-0.781 2.828 0s0.781 2.047 0 2.828l-1.414 1.414zM6.101 23.071c0.781-0.781 2.047-0.781 2.828 0s0.781 2.047 0 2.828l-1.414 1.414c-0.781 0.781-2.047 0.781-2.828 0s-0.781-2.047 0-2.828l1.414-1.414z">
+                        </path>
+                        <path
+                          d="M16 8c-4.418 0-8 3.582-8 8s3.582 8 8 8c4.418 0 8-3.582 8-8s-3.582-8-8-8zM16 21c-2.761 0-5-2.239-5-5s2.239-5 5-5 5 2.239 5 5-2.239 5-5 5z">
+                        </path>
+                      </svg>  Lightings</a></li>
+                      <li><a href="#">
+                        <svg class="icon-vertical-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                          <title>mobile2</title>
+                          <path
+                            d="M24 0h-18c-1.1 0-2 0.9-2 2v28c0 1.1 0.9 2 2 2h18c1.1 0 2-0.9 2-2v-28c0-1.1-0.9-2-2-2zM15 30.556c-0.859 0-1.556-0.697-1.556-1.556s0.697-1.556 1.556-1.556 1.556 0.697 1.556 1.556-0.697 1.556-1.556 1.556zM24 26h-18v-22h18v22z">
+                          </path>
+                        </svg>  Smartphone & Tablet</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="horizontal-block">
+              <div class="horizontal-block-menu">
+                <nav class="horizontal-menu">
+                  <ul>
+                    <li class="first-color-menu"><a href="#" class="link-color-menu">
+                      <svg class="horizontal-menu-home"version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28">
+                      <path
+                        d="M22 15.5v7.5c0 0.547-0.453 1-1 1h-6v-6h-4v6h-6c-0.547 0-1-0.453-1-1v-7.5c0-0.031 0.016-0.063 0.016-0.094l8.984-7.406 8.984 7.406c0.016 0.031 0.016 0.063 0.016 0.094zM25.484 14.422l-0.969 1.156c-0.078 0.094-0.203 0.156-0.328 0.172h-0.047c-0.125 0-0.234-0.031-0.328-0.109l-10.813-9.016-10.813 9.016c-0.109 0.078-0.234 0.125-0.375 0.109-0.125-0.016-0.25-0.078-0.328-0.172l-0.969-1.156c-0.172-0.203-0.141-0.531 0.063-0.703l11.234-9.359c0.656-0.547 1.719-0.547 2.375 0l3.813 3.187v-3.047c0-0.281 0.219-0.5 0.5-0.5h3c0.281 0 0.5 0.219 0.5 0.5v6.375l3.422 2.844c0.203 0.172 0.234 0.5 0.063 0.703z">
+                      </path>
+                    </svg>HOME</a></li>
+                    <li class="hover-features"><a href="#" class="link-a-FEATURES link-hover-menu">FEATURES<svg class="horizontal-menu-arouw"version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+
+                      <path d="M9.293 12.95l0.707 0.707 5.657-5.657-1.414-1.414-4.243 4.242-4.243-4.242-1.414 1.414z"></path>
+                    </svg></a>
+                  <ul>
+                    <h5>Layouts</h5>
+                    <li><a href="#">Home layout 1</a></li>
+                    <li><a href="#">Home layout 2</a></li>
+                    <li><a href="#">Boxed layout</a></li>
+                    <li><a href="#">Right to Left</a></li>
+                  </ul></li>
+                    <li><a class="link-hover-menu" href="#">SHOP</a></li>
+                    <li><a class="link-hover-menu" href="#">BLOG</a></li>
+                    <li><a class="link-hover-menu" href="#">ABOUT US</a></li>
+                    <li><a class="link-hover-menu" href="#" style="color: #3399ff;">CONTACT US</a></li>
+                  </ul>
+                </nav>
+                <div class="horizontal-sentence">
+                  <div class="horizontal-sentence-block">
+                    <a href="#"><svg class="icon-sentence-first"version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="28" viewBox="0 0 16 28">
+                      <path
+                        d="M11.5 9c0 0.266-0.234 0.5-0.5 0.5s-0.5-0.234-0.5-0.5c0-1.078-1.672-1.5-2.5-1.5-0.266 0-0.5-0.234-0.5-0.5s0.234-0.5 0.5-0.5c1.453 0 3.5 0.766 3.5 2.5zM14 9c0-3.125-3.172-5-6-5s-6 1.875-6 5c0 1 0.406 2.047 1.062 2.812 0.297 0.344 0.641 0.672 0.953 1.031 1.109 1.328 2.047 2.891 2.203 4.656h3.563c0.156-1.766 1.094-3.328 2.203-4.656 0.313-0.359 0.656-0.688 0.953-1.031 0.656-0.766 1.062-1.813 1.062-2.812zM16 9c0 1.609-0.531 3-1.609 4.188s-2.5 2.859-2.625 4.531c0.453 0.266 0.734 0.766 0.734 1.281 0 0.375-0.141 0.734-0.391 1 0.25 0.266 0.391 0.625 0.391 1 0 0.516-0.266 0.984-0.703 1.266 0.125 0.219 0.203 0.484 0.203 0.734 0 1.016-0.797 1.5-1.703 1.5-0.406 0.906-1.313 1.5-2.297 1.5s-1.891-0.594-2.297-1.5c-0.906 0-1.703-0.484-1.703-1.5 0-0.25 0.078-0.516 0.203-0.734-0.438-0.281-0.703-0.75-0.703-1.266 0-0.375 0.141-0.734 0.391-1-0.25-0.266-0.391-0.625-0.391-1 0-0.516 0.281-1.016 0.734-1.281-0.125-1.672-1.547-3.344-2.625-4.531s-1.609-2.578-1.609-4.188c0-4.25 4.047-7 8-7s8 2.75 8 7z">
+                      </path>
+                    </svg> SPECIAL SALE <span>30% OFF</span> ON ALL ITEM</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- moble-vers -->
+    <div class="moble-vers">
+      <div class="moble-top">
+        <div class="menu-moble">
+          <button>
+            <svg class="menu-moble-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              viewBox="0 0 20 20">
+              <path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="logo-moble">
+          <img src="img/logo-mobile.png" alt="logo-mobile" class="logo-mobile-icon">
+        </div>
+        <div class="cart-moble">
+          <button>
+            <svg class="shopping-cart-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
+              <path
+                d="M19 5h-14l1.5-2h11zM21.794 5.392l-2.994-3.992c-0.196-0.261-0.494-0.399-0.8-0.4h-12c-0.326 0-0.616 0.156-0.8 0.4l-2.994 3.992c-0.043 0.056-0.081 0.117-0.111 0.182-0.065 0.137-0.096 0.283-0.095 0.426v14c0 0.828 0.337 1.58 0.879 2.121s1.293 0.879 2.121 0.879h14c0.828 0 1.58-0.337 2.121-0.879s0.879-1.293 0.879-2.121v-14c0-0.219-0.071-0.422-0.189-0.585-0.004-0.005-0.007-0.010-0.011-0.015zM4 7h16v13c0 0.276-0.111 0.525-0.293 0.707s-0.431 0.293-0.707 0.293h-14c-0.276 0-0.525-0.111-0.707-0.293s-0.293-0.431-0.293-0.707zM15 10c0 0.829-0.335 1.577-0.879 2.121s-1.292 0.879-2.121 0.879-1.577-0.335-2.121-0.879-0.879-1.292-0.879-2.121c0-0.552-0.448-1-1-1s-1 0.448-1 1c0 1.38 0.561 2.632 1.464 3.536s2.156 1.464 3.536 1.464 2.632-0.561 3.536-1.464 1.464-2.156 1.464-3.536c0-0.552-0.448-1-1-1s-1 0.448-1 1z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-bottom">
+        <div class="container-mobile">
+          <div class="block-search-mobile">
+            <div class="field search">
+              <div class="control">
+                <input id="search-mobile" type="text" name="q" value="" placeholder="Search entire store here..." class="input-text"
+                  maxlength="128" role="combobox" aria-haspopup="false" aria-expanded="true" aria-autocomplete="both"
+                  autocomplete="off">
+                <div id="search_autocomplete_mobile" class="search-autocomplete"></div>
+              </div>
+              <div class="actions">
+                <button type="submit" title="Search" class="action-search" disabled="">
+                  <svg class="mobile-search" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                      d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- moble-vers -->
+  </header>
+  <!-- advantages block -->
+  <div class="advantages">
+    <div class="block-advantages">
+      <div class="advantages-icon color-advantages-1">
+        <svg class="advantages-icon-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>truck1</title>
+          <path
+            d="M32 18l-4-8h-6v-4c0-1.1-0.9-2-2-2h-18c-1.1 0-2 0.9-2 2v16l2 2h2.536c-0.341 0.588-0.536 1.271-0.536 2 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.729-0.196-1.412-0.536-2h11.073c-0.341 0.588-0.537 1.271-0.537 2 0 2.209 1.791 4 4 4s4-1.791 4-4c0-0.729-0.196-1.412-0.537-2h2.537v-6zM22 18v-6h4.146l3 6h-7.146z">
+          </path>
+        </svg>
+      </div>
+      <div class="advantages-text">
+        <h5>FREE DELIVERY</h5>
+        <p>From $59</p>
+      </div>
+    </div>
+    <div class="block-advantages">
+      <div class="advantages-icon color-advantages-2">
+        <svg class="advantages-icon-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>phone</title>
+          <path
+            d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z">
+          </path>
+        </svg>
+      </div>
+      <div class="advantages-text">
+        <h5>SUPPORT 24/7</h5>
+        <p>Online 24 hours</p>
+      </div>
+    </div>
+    <div class="block-advantages">
+      <div class="advantages-icon color-advantages-3">
+        <svg class="advantages-icon-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>undo</title>
+          <path d="M28 8v20h-24v-4h20v-12h-6.071l3.657 3.66-2.828 2.83-8.485-8.484 8.485-8.485 2.828 2.826-3.657 3.653h10.071z">
+          </path>
+        </svg>
+      </div>
+      <div class="advantages-text">
+        <h5>FREE RETURN</h5>
+        <p>365 a day</p>
+      </div>
+    </div>
+    <div class="block-advantages">
+      <div class="advantages-icon color-advantages-4">
+        <svg class="advantages-icon-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>credit-card</title>
+          <path
+            d="M29 4h-26c-1.65 0-3 1.35-3 3v18c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-18c0-1.65-1.35-3-3-3zM3 6h26c0.542 0 1 0.458 1 1v3h-28v-3c0-0.542 0.458-1 1-1zM29 26h-26c-0.542 0-1-0.458-1-1v-9h28v9c0 0.542-0.458 1-1 1zM4 20h2v4h-2zM8 20h2v4h-2zM12 20h2v4h-2z">
+          </path>
+        </svg>
+      </div>
+      <div class="advantages-text">
+        <h5>PAYMENT METHOD</h5>
+        <p>Secure payment</p>
+      </div>
+    </div>
+    <div class="block-advantages">
+      <div class="advantages-icon color-advantages-5 ">
+        <svg class="advantages-icon-img" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>box-remove</title>
+          <path
+            d="M26 2h-20l-6 6v21c0 0.552 0.448 1 1 1h30c0.552 0 1-0.448 1-1v-21l-6-6zM20 20v6h-8v-6h-6l10-8 10 8h-6zM4.828 6l2-2h18.343l2 2h-22.343z">
+          </path>
+        </svg>
+      </div>
+      <div class="advantages-text">
+        <h5>GET PROMOTION</h5>
+        <p>Secure payment</p>
+      </div>
+    </div>
+  </div>
+  <!-- advantages block -->
+  <!-- footer block -->
+  <div class="footer">
+    <div class="block-info">
+      <div class="contact">
+        <h5 class="title">CONTACT US</h5>
+        <p class="shadow"></p>
+        <p>Lorem ipsum dolor sit amet, consectetu adipiscing elite sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua quis ipsum suspendisse.</p>
+        <div class="text-img">
+          <svg style="fill: #0276b9;"version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+            <title>map</title>
+            <path d="M0 6l10-4v24l-10 4z"></path>
+            <path d="M12 1l10 6v23l-10-5z"></path>
+            <path d="M24 7l8-6v24l-8 6z"></path>
+          </svg>
+          <p class="info-local">4331 Dominion St, Burnaby, BC V5G 1C7, Canada
+        7X4V+M2 Burnaby, British Columbia, Canada
+          </p>
+        </div>
+        <div class="text-img">
+          <svg style="fill: #0276b9;"version="1.1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 32 32">
+            <title>phone</title>
+            <path
+              d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z">
+            </path>
+          </svg>
+          <p class="info-local">(+80)123 456 789 - (+80)123 456 789
+          </p>
+        </div>
+        <div class="text-img">
+          <svg style="fill: #0276b9;"version="1.1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 32 32">
+            <title>mail2</title>
+            <path
+              d="M26.667 0h-21.333c-2.934 0-5.334 2.4-5.334 5.334v21.332c0 2.936 2.4 5.334 5.334 5.334h21.333c2.934 0 5.333-2.398 5.333-5.334v-21.332c0-2.934-2.399-5.334-5.333-5.334zM26.667 4c0.25 0 0.486 0.073 0.688 0.198l-11.355 9.388-11.355-9.387c0.202-0.125 0.439-0.198 0.689-0.198h21.333zM5.334 28c-0.060 0-0.119-0.005-0.178-0.013l7.051-9.78-0.914-0.914-7.293 7.293v-19.098l12 14.512 12-14.512v19.098l-7.293-7.293-0.914 0.914 7.051 9.78c-0.058 0.008-0.117 0.013-0.177 0.013h-21.333z">
+            </path>
+          </svg>
+
+          <p class="info-local">info@example.com - info1@example.com
+          </p>
+        </div>
+        
+      </div>
+      <div class="contact padding-left">
+        <h5 class="title">STORE LOCATION</h5>
+        <p class="shadow"></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Los Angeles - USA</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">New York - USA</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">California - USA</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Bangkok - Thailand</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Paris - France</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">London - England</a></p>
+      </div>
+      <div class="contact">
+        <h5 class="title">CUSTOMER SERVICE</h5>
+        <p class="shadow"></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Customer Service</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Shipping & Returns</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Track Your Order</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Help Center</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Store Location</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Customer Feedback</a></p>
+      </div>
+      <div class="contact">
+        <h5 class="title">INFORMATION</h5>
+        <p class="shadow"></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Caps & Hats</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Hoodies & Sweatshirts</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Jacket & Coats</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Jumpers & Cardigans</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none">Shoes, Boots & Trainers</a></p>
+        <p class="info-product active"><a href="#" class="link-style-none ">Underwear & Socks</a></p>
+      </div>
+      <div class="contact">
+        <h5 class="title">INSTAGRAM</h5>
+        <p class="shadow"></p>
+        <div class="block-img">
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/1.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-1.jpg" alt="img-info"
+            class="img-info"></a>
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/2.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-2.jpg" alt="img-info" class="img-info"></a>
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/3.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-3.jpg" alt="img-info" class="img-info"></a>
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/4.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-4.jpg" alt="img-info" class="img-info"></a>
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/5.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-5.jpg" alt="img-info" class="img-info"></a>
+          <a href="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/6.jpg">
+            <img src="http://magento2.magentech.com/themes/sm_smartech/pub/media/wysiwyg/instagram/thum-6.jpg" alt="img-info" class="img-info"></a>
+        </div>
+      </div>
+    </div>
+    <div class="link-bottom">
+      <div class="social-networks">
+        <ul class="social-networks-block">
+          <li class="networks-facebook active-link"><a href="#" class="link-networks">
+            <svg class="icon-link" version="1.1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32">
+              <title>facebook</title>
+              <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+            </svg>              
+          </a></li>
+          <li class="networks-twitter active-link"><a href="#" class="link-networks">
+            <svg class="icon-link" version="1.1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32">
+              <title>twitter</title>
+              <path
+                d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z">
+              </path>
+            </svg>
+          </a></li>
+          <li class="networks-instagram active-link"><a href="#" class="link-networks">
+            <svg class="icon-link" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>instagram</title>
+              <path
+                d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z">
+              </path>
+              <path
+                d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z">
+              </path>
+              <path
+                d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z">
+              </path>
+            </svg>
+          </a></li>
+          <li class="networks-youtube active-link"><a href="#" class="link-networks">
+            <svg class="icon-link" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>youtube</title>
+              <path
+                d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z">
+              </path>
+            </svg>
+          </a></li>
+          <li class="networks-linkedin active-link"><a href="#" class="link-networks">
+            <svg class="icon-link-in" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>linkedin2</title>
+              <path
+                d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z">
+              </path>
+              <path d="M2 12h6v18h-6v-18z"></path>
+              <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+            </svg>
+          </a></li>
+          <li class="networks-google active-link"><a href="#" class="link-networks">
+            <svg class="icon-link" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>google-plus</title>
+              <path
+                d="M10.181 14.294v3.494h5.775c-0.231 1.5-1.744 4.394-5.775 4.394-3.475 0-6.313-2.881-6.313-6.431s2.838-6.431 6.313-6.431c1.981 0 3.3 0.844 4.056 1.569l2.762-2.662c-1.775-1.656-4.075-2.662-6.819-2.662-5.631 0.006-10.181 4.556-10.181 10.188s4.55 10.181 10.181 10.181c5.875 0 9.775-4.131 9.775-9.95 0-0.669-0.075-1.181-0.163-1.688h-9.613z">
+              </path>
+              <path d="M32 14h-3v-3h-3v3h-3v3h3v3h3v-3h3z"></path>
+            </svg>
+          </a></li>
+        </ul>
+      </div>
+      <div class="stock-subscribe">
+        <div class="stock">
+          <h3 class="title-stock">Join Our Newsletter Now <span class="stock-span">Get 35% OFF</span> all product
+          </h3>
+        </div>
+        <div class="subscribe">
+          <input type="text" class="input-text" placeholder="You email adress">
+          <input type="submit" class="input-submit" value="SUBSCRIBE">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
